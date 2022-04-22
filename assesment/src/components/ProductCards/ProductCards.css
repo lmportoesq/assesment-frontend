@@ -1,0 +1,64 @@
+.main-cards{
+    width: 330px;
+    height: 260px;
+    border-color: grey;
+    border-radius: 20px;
+    border: 2px solid gray;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 45% 25% 15% 15%;
+
+    grid-template-areas:
+      "imgCell imgCell"
+      "titleCell titleCell"
+      "timerCell linkCell"
+      "outCell outCell"
+      ". .";
+}
+.main-cards__title{
+    font-size: 16px;
+    text-align: center;
+    grid-area: titleCell;
+}
+
+.main-cards__link{
+    width: 120px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    font: white;
+    border-radius: 40px;
+    margin-left: 30px;
+    text-align: center;
+  
+    text-decoration: none;
+    grid-area: linkCell;
+}
+
+.main-cards__image{
+    grid-area: imgCell;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-cards__timer{
+    width: 100px;
+    height: 20px;
+    grid-area: timerCell;
+}
+.main-cards__timeout{
+   width: 120px;
+   height: 20px;
+   font: white;
+   background-color: red;
+   font-size: 16px;
+   text-align: center;
+   grid-area: outCell;
+}
