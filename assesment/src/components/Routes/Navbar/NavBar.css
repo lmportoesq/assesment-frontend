@@ -1,0 +1,26 @@
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 26px;
+    font: white;
+    margin: 10px;
+    border-color: red;
+  }
+  
+  ul{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  
+  
+  .navLink{
+    border-color: red;
+    list-style: none;
+    text-decoration: none;
+    font-size: 26px;
+    font: white;
+    margin: 10px;
+    
+  }
