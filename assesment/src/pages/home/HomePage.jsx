@@ -1,8 +1,8 @@
-import Headers from '../componets/Headers/Headers';
-import ProductCards from '../componets/ProductCards/ProductCards';
-import Footer from '../componets/Footer/Footer';
+import Headers from '../../components/Headers/Headers';
+import ProductCards from '../../components/ProductCards/ProductCards';
+import Footer from '../../components/Footer/Footer';
 import { useEffect, useState } from 'react';
-import { getAllProducts } from '../services/services';
+import { getAllProducts } from '../../services/services';
 
 import './HomePage.css';
 
@@ -24,7 +24,7 @@ function HomePage() {
             <Headers />
             <h1 className='main-home__title'>Products</h1>
             <hr />
-            <div className='main-home__card'>
+            <div >
                 {products.map((product) => (
                     <ProductCards
                         key={product.id}
