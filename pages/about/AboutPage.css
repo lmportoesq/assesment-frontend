@@ -1,0 +1,40 @@
+.main-about__data{
+    width: 100%;
+    background-color:white;
+    height: 550px;
+    margin-top: 30px;
+
+    border-radius: 30px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    "imgCell textCell"
+    ". .";
+}
+.main-about__data__image{
+   border: 1px solid red; 
+   grid-area: imgCell;
+}
+.container-detail__image{
+    width: 100%;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.main-about__data_text{
+    padding: 20px;
+    grid-area: textCell;
+}
+#h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+li{
+    font-size: 14px;
+    text-align: left;
+}
