@@ -1,3 +1,10 @@
+.main-about{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../../assesment/public/Fondo.jpg);
+    background-repeat: no-repeat;
+}
 .main-about__data{
     width: 100%;
     background-color:white;
