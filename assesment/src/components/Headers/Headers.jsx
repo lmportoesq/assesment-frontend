@@ -1,4 +1,4 @@
-import NavBar from '../NavBar/Navbar';
+import NavBar from '../Navbar/NavBar';
 import './Headers.css';
 
 function Headers(){

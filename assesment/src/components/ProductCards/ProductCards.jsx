@@ -1,9 +1,9 @@
 import Timer from '../Timer/Timer';
-import './ProductCards.css';
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import Swal from 'sweetalert2';
 
+import './ProductCards.css';
 function ProductCards({product}){
     const {id,title,image} = product
     const [endTimer,setEndTimer]=useState(false);

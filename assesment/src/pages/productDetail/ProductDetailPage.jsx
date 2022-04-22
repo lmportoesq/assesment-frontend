@@ -1,8 +1,8 @@
-import { getProduct } from '../services/services';
+import { getProduct } from '../../services/services';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Headers from '../componets/Headers/Headers';
-import Footer from '../componets/Footer/Footer';
+import Headers from '../../components/Headers/Headers';
+import Footer from '../../components/Footer/Footer';
 import './ProductDetailPage.css'
 
 function ProductDetailPage(){
@@ -17,13 +17,13 @@ function ProductDetailPage(){
            console.log(product);
         }
       fetchProduct();
-    },[]);
+    },[id]);
 
     return(
       <div className='main-container'>
         <Headers />
         <div className='container-detail'>
-            <img className='container-detail__image' src={product.image} />
+            <img className='container-detail__image' src={product.image} alt="" />
             <h2 className='container-detail__tittle'>{product.title}</h2>
             <p>Price:{product.price}</p>
             <p>Description:{product.description}</p>

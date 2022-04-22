@@ -6,7 +6,7 @@ function AboutPage(){
         <div className="main-about">
             <div className="main-about__data">
                 <div className='main-about__data__image'>
-                    <img src='../../assesment/public/Foto.jpeg' className = 'main-about__photo'/>
+                    <img src='../../../../assesment/public/Foto.jpeg' className = 'main-about__photo' alt='="'/>
                 </div>
                 <div className='main-about__data_text'>
                     <h1 id='h1'>Luis Miguel Porto Esquivel</h1>
