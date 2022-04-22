@@ -1,7 +1,8 @@
+import Routing from './components/Routes/Routings';
 function App() {
   return (
     <div>
-      <h1>Soy la app</h1>
+      <Routing />
     </div>
   );
 }
