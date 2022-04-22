@@ -6,7 +6,6 @@ export async function getAllProducts () {
     const products = await resp.json()
     return products
   } catch (error) {
-    console.log(error)
   }
 }
 
@@ -16,6 +15,5 @@ export async function getProduct(id) {
     const product = await resp.json()
     return product
   } catch (error) {
-    console.log(error)
   }
 }

@@ -24,7 +24,7 @@ function HomePage() {
             <Headers />
             <h1 className='main-home__title'>Products</h1>
             <hr />
-            <div >
+            <div className='main-home__card'>
                 {products.map((product) => (
                     <ProductCards
                         key={product.id}
