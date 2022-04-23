@@ -11,7 +11,6 @@ function HomePage() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-
         const fetchProducts = async () => {
             const allProducts = await getAllProducts();
             setProducts(allProducts);
