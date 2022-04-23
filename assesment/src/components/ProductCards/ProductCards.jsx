@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Swal from 'sweetalert2';
 
 function ProductCards({product}){
-    
+    console.log('Estoy en product card...',product)
     const {id,title,image} = product
     const [endTimer,setEndTimer]=useState(false);
     
@@ -18,7 +18,7 @@ function ProductCards({product}){
 
     function handleClick(){
         if(endTimer){
-            url=" ";
+            //url=" ";
             Swal.fire({
                 type:'error',
                 title:'Error',

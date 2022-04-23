@@ -29,7 +29,7 @@ function HomePage() {
                     <ProductCards
                         key={product.id}
                         product={product}
-                    />
+                     />
                 ))};
             </div>
             <div className='main-home__footer'>
