@@ -10,13 +10,12 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 45% 25% 15% 15%;
+    grid-template-rows: 50% 35% 15%;
 
     grid-template-areas:
       "imgCell imgCell"
       "titleCell titleCell"
       "timerCell linkCell"
-      "outCell outCell"
       ". .";
 }
 .main-cards__title{
@@ -52,13 +51,4 @@
     width: 100px;
     height: 20px;
     grid-area: timerCell;
-}
-.main-cards__timeout{
-   width: 120px;
-   height: 20px;
-   font: white;
-   background-color: red;
-   font-size: 16px;
-   text-align: center;
-   grid-area: outCell;
 }

@@ -6,7 +6,7 @@ function AboutPage(){
         <div className="main-about">
             <div className="main-about__data">
                 <div className='main-about__data__image'>
-                    <img src='../../../../assesment/public/Foto.jpeg' className = 'main-about__photo' alt='="'/>
+                    <img src='../../../../assesment/public/Foto.jpeg' className = 'main-about__photo' alt=""/>
                 </div>
                 <div className='main-about__data_text'>
                     <h1 id='h1'>Luis Miguel Porto Esquivel</h1>
@@ -21,7 +21,7 @@ function AboutPage(){
                         <li>Diseño y manejo de bases de datos no relacionales como Mongo DB</li>
                     </ul>
                     <p>Escríbeme a lmportoesq@gmail.com</p>
-                    <Link to= "">Git Hub</Link>
+                    <Link to="">"https://github.com/lmportoesq"</Link>
                     <Link to="/" className='main-cards__link'>Ir a la home page </Link>
                 </div>
             </div>

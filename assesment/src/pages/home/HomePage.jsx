@@ -11,7 +11,6 @@ function HomePage() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-
         const fetchProducts = async () => {
             const allProducts = await getAllProducts();
             setProducts(allProducts);
@@ -24,12 +23,12 @@ function HomePage() {
             <Headers />
             <h1 className='main-home__title'>Products</h1>
             <hr />
-            <div >
+            <div className='main-home__card'>
                 {products.map((product) => (
                     <ProductCards
                         key={product.id}
                         product={product}
-                    />
+                     />
                 ))};
             </div>
             <div className='main-home__footer'>
